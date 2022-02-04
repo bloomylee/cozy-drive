@@ -6,6 +6,7 @@ import DriveProvider from 'drive/lib/DriveProvider'
 import { ThumbnailSizeContextProvider } from 'drive/lib/ThumbnailSizeContext'
 import { ModalContextProvider } from 'drive/lib/ModalContext'
 import { AcceptingSharingProvider } from 'drive/lib/AcceptingSharingContext'
+import { WebviewIntentProvider } from 'cozy-intent'
 
 const App = ({ store, client, lang, polyglot, children }) => {
   return (
@@ -13,7 +14,9 @@ const App = ({ store, client, lang, polyglot, children }) => {
       <DriveProvider client={client} lang={lang} polyglot={polyglot}>
         <AcceptingSharingProvider>
           <ThumbnailSizeContextProvider>
-            <ModalContextProvider>{children}</ModalContextProvider>
+            <ModalContextProvider>
+              <WebviewIntentProvider>{children}</WebviewIntentProvider>
+            </ModalContextProvider>
           </ThumbnailSizeContextProvider>
         </AcceptingSharingProvider>
       </DriveProvider>
