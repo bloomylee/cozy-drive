@@ -5879,12 +5879,12 @@ cozy-app-publish@^0.27.2:
     request "^2.88.0"
     tar "^4.4.13"
 
-cozy-authentication@2.8.3:
-  version "2.8.3"
-  resolved "https://registry.yarnpkg.com/cozy-authentication/-/cozy-authentication-2.8.3.tgz#f427d76417a750678cbbdce886ca09ef8db124c5"
-  integrity sha512-bu29D86IeiBoWn6ClOEobmRXWI1Nl1135BObW06vZaj2fUs6Yh9fcAtC1fAeYYVTN63U0haWPm9APHyV/Gw7IA==
+cozy-authentication@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/cozy-authentication/-/cozy-authentication-2.10.0.tgz#82e17b62a3120be7bd39fc3e337259450b53db38"
+  integrity sha512-3bLFEYwc0TwNRAPsBN0H8XXU+D0m3adPcXYH4hljgkVPKtzn8ULrhPAkzk/Ttpwqf2obV2GVnFdOX/Mrqd9McA==
   dependencies:
-    cozy-device-helper "^1.17.0"
+    cozy-device-helper "^2.2.0"
     localforage "1.7.3"
     prop-types "15.7.2"
     snarkdown "1.2.2"
@@ -6024,10 +6024,10 @@ cozy-device-helper@^1.12.0, cozy-device-helper@^1.13.2, cozy-device-helper@^1.16
   dependencies:
     lodash "^4.17.19"
 
-cozy-device-helper@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/cozy-device-helper/-/cozy-device-helper-2.1.0.tgz#6e94215ecf7831093eeb6b260923262cb7331f81"
-  integrity sha512-FhiplXS7R4kY7FobGDbmR6GSWMcgrZMnjDz2DcHVyX2sSNewVKk71zRh0vWeWuJRraoXpd32n8B327SjERkEXw==
+cozy-device-helper@^2.1.0, cozy-device-helper@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/cozy-device-helper/-/cozy-device-helper-2.2.0.tgz#2794157bcd23948e68ef373ab9a67e1a6c17d995"
+  integrity sha512-j6HbiS6zh7/WPxajbbPIRpK/kaxZG8UTH2zlO6FU7pD7PGpisyl3Wl+O9P8WhOYtaKFxAwu1VFXm32FULV+MHw==
   dependencies:
     lodash "^4.17.19"
 
